@@ -1,4 +1,4 @@
-import { Movie, MovieAPIResponse } from '../features/movies/movie.types';
+import { Movie, MovieAPIResponse } from "./movie.types";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL = import.meta.env.VITE_BASE_URL;

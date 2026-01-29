@@ -1,4 +1,4 @@
-import { Movie, MovieContextType } from "../types/movie";
+import { Movie, MovieContextType } from "../features/movies/movie.types";
 import { createContext, useState, useContext, useEffect } from "react";
 import { ReactNode } from "react";
 
