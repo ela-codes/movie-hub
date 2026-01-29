@@ -1,11 +1,9 @@
-import './css/App.css'
-import Favourites from './pages/Favourites';
-import Home from './pages/Home';
-import Search from './pages/Search';
+import Favourites from './features/favourites/Favourites';
+import Home from './features/movies/Home';
+import Search from './features/search/Search';
 import NavBar from './components/NavBar';
 import { Routes, Route } from 'react-router-dom';
 import { MovieProvider } from './contexts/MovieContext';
-
 
 function App() {
   return (
@@ -21,7 +19,7 @@ function App() {
         </Routes>
       </main>
     </MovieProvider>
-  )
+  );
 }
 
-export default App
+export default App;
